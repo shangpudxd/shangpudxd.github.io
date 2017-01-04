@@ -1,25 +1,3 @@
-// bower:scss
-// endbower
-
-//css base
-*{margin:0; padding:0;font-size:12px; font-family:'Microsoft Yahei';}
-h1,h2,h3,h4,h5,h6{font-weight:normal;}
-a{text-decoration:none; color:#666;}
-a img{border:0;}
-img{ display:block;}
-ul,ol,dl,dt,dd{margin:0; padding:0;}
-li{list-style:none;}
-i,em{font-style:normal;}
-b,strong{font-weight:normal;}
-.clearfix:after{ display:block; content:''; clear:both;}
-.clearfix{ zoom:1;}
-.fl{ float:left;}
-.fr{ float:right;}
-.w{ width:987px; margin:0 auto;}
-input,textarea{outline:none;}
-textarea{ resize:none;}
-
-
 ::-webkit-scrollbar{width:0px}
 @-webkit-keyframes mymove{
   from{
@@ -74,7 +52,7 @@ textarea{ resize:none;}
 #bar{
   width:100%; height:50px; position:fixed; background:white; border-bottom:3px solid #95a5a6; z-index: 99;
   .namelogo{
-    width:80px; height:50px; cursor: pointer; background:url(../images/namelogo.png) no-repeat 3px 6px ; float:left; background-size:200%;
+    width:80px; height:50px; cursor: pointer; background:url(../img/namelogo.png) no-repeat 3px 6px ; float:left; background-size:200%;
   }
   span{
     cursor: pointer;
@@ -117,7 +95,7 @@ textarea{ resize:none;}
     display:none;
   }
   .logo{
-    width:50px; height:50px; float: left; cursor:pointer; background:url(../images/logo-pix.png) 4px 11px no-repeat; background-size:80%
+    width:50px; height:50px; float: left; cursor:pointer; background:url(../img/logo-pix.png) 4px 11px no-repeat; background-size:80%
   }
 }
 .leftbar{
@@ -164,7 +142,7 @@ textarea{ resize:none;}
       -webkit-transform:translateZ(40px);
     }
     .l{
-      background:url("../images/namelogo.png") no-repeat;
+      background:url("../img/namelogo.png") no-repeat;
       background-size:200%;
       -webkit-transform: translateX(40px) rotateY(90deg);
     }
@@ -174,15 +152,15 @@ textarea{ resize:none;}
     }
   }
   .show1{
-    width:100%;
-    height:150px;
-    margin-top:100px;
-    position:relative;
+     width:100%;
+     height:150px;
+     margin-top:100px;
+     position:relative;
     .showcontent {
       width: 100%;
       height: 70%;
     }
-  }
+   }
   .tag{
     width:60px;
     height:20px;
@@ -244,7 +222,7 @@ textarea{ resize:none;}
     bottom:30px;
     line-height:20px;
     font-size:20px;
-    background:url(../images/mail.png) #3498db no-repeat;
+    background:url(../img/mail.png) #3498db no-repeat;
     background-size:30px 30px;
     span{
       font-family:"微软雅黑";
@@ -254,7 +232,7 @@ textarea{ resize:none;}
     }
   }
   .git{
-    background:url(../images/github.png) #e74c3c no-repeat;
+    background:url(../img/github.png) #e74c3c no-repeat;
     background-size:30px 30px;
     bottom:100px;
     span{
@@ -266,7 +244,7 @@ textarea{ resize:none;}
   width:100%;
   height:955px;
   /*background:-webkit-linear-gradient(0deg,#2f4154 20%,#95a5a6 20%,#95a5a6 calc(20% + 3px),#ecf0f1 calc(20% + 3px),#ecf0f1 90%,#95a5a6 90%,#95a5a6 calc(90% + 3px),#2f4154 calc(90% + 3px));*/
-  background:url(../images/back3.jpg) no-repeat #ecf0f1;
+  background:url(../img/back3.jpg) no-repeat #ecf0f1;
   background-size:1927px 720px;
   position:relative;
   .design{
@@ -276,7 +254,7 @@ textarea{ resize:none;}
     right:0;
     bottom:0;
     font-family: "Lato", Helvetica, Arial, sans-serif;
-    background:url("../images/namelogo.png") 130px -4px no-repeat #95a5a6;
+    background:url("../img/namelogo.png") 130px -4px no-repeat #95a5a6;
     font-size:17px;
     line-height:30px;
     font-weight:bold;
@@ -332,17 +310,17 @@ textarea{ resize:none;}
     }
     .l1{
       left:300px;
-      background:url(../images/realback3.jpg) -300px no-repeat;
+      background:url(../img/realback3.jpg) -300px no-repeat;
       background-size:1927px 720px;
     }
     .l2{
       left:740px;
-      background:url(../images/realback3.jpg) -740px no-repeat;
+      background:url(../img/realback3.jpg) -740px no-repeat;
       background-size:1927px 720px;
     }
     .l3{
       left:1200px;
-      background:url(../images/realback3.jpg) -1200px no-repeat;
+      background:url(../img/realback3.jpg) -1200px no-repeat;
       background-size:1927px 720px;
     }
   }
@@ -380,7 +358,7 @@ textarea{ resize:none;}
       color:white;
     }
     li:hover{
-      box-shadow: 3px 0 rgb(255, 255, 255) inset;
+      box-shadow: 3px 0 rgba(46, 204, 113,.5) inset;
     }
   }
 }
@@ -451,28 +429,28 @@ textarea{ resize:none;}
         background-color: rgba(167, 238, 255,.3);
       }
       .pre1{
-        background:url(../images/pre1.PNG) right center no-repeat white;
+        background:url(../img/pre1.PNG) right center no-repeat white;
         width:17%;
         height:40%;
         left:5%;
         top:5%;
       }
       .pre2{
-        background:url(../images/pre2.PNG) right center no-repeat white;
+        background:url(../img/pre2.PNG) right center no-repeat white;
         width:30%;
         height:33%;
         left:24%;
         top:2%;
       }
       .pre3{
-        background:url(../images/pre3.PNG) right center no-repeat white;
+        background:url(../img/pre3.PNG) right center no-repeat white;
         width:20%;
         height:60%;
         left:56%;
         top:9%;
       }
       .pre4{
-        background:url(../images/pre4.PNG) right center no-repeat white;
+        background:url(../img/pre4.PNG) right center no-repeat white;
         width:18%;
         height:43%;
         left:79%;
@@ -500,7 +478,7 @@ textarea{ resize:none;}
     .browser{
       width:30%;
       height:70%;
-      background:url(../images/browser.png) no-repeat black;
+      background:url(../img/browser.png) no-repeat black;
       background-size:100% 10%;
       position:absolute;
       left:55%;
